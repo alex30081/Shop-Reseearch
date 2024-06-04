@@ -11,11 +11,11 @@ public class Main {
         String salesOutput;
 
         namesOutput = dataHandler.handleData(provider.getProductNames());
-        getOutput("Products: " + namesOutput);
+        getOutput("Products name: " + namesOutput);
 
 
         salesOutput = dataHandler.handleData(provider.getSalesAmounts());
-        getOutput("Sales, EUR: " + salesOutput);
+        getOutput("Sales, USD: " + salesOutput);
     }
 
     private static void getOutput(String output) {
